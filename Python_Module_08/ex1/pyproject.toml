@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "loading-programs"
+version = "0.1.0"
+description = "Matrix data analysis tool"
+authors = ["Mohamed Karimi"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
